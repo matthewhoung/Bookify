@@ -11,9 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{03129E84-C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain.UniTests", "test\Domain.UniTests\Domain.UniTests.csproj", "{3E910DB4-0D92-4F3C-98F4-FFCE2AC0B580}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application", "src\Bookify.Application\Bookify.Application.csproj", "{9FB56E5F-0164-40F7-8449-AFC5BA946D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Application", "src\Bookify.Application\Bookify.Application.csproj", "{9FB56E5F-0164-40F7-8449-AFC5BA946D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Infrastructure", "src\Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Infrastructure", "src\Bookify.Infrastructure\Bookify.Infrastructure.csproj", "{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Api", "src\Bookify.Api\Bookify.Api.csproj", "{CA687A12-6B2C-461F-A285-5C45C525FA20}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,18 @@ Global
 		{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1}.Release|x64.Build.0 = Release|Any CPU
 		{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1}.Release|x86.ActiveCfg = Release|Any CPU
 		{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1}.Release|x86.Build.0 = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|x64.Build.0 = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA687A12-6B2C-461F-A285-5C45C525FA20}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +96,7 @@ Global
 		{3E910DB4-0D92-4F3C-98F4-FFCE2AC0B580} = {03129E84-C69D-4400-A9A2-D7A7F12BF8A7}
 		{9FB56E5F-0164-40F7-8449-AFC5BA946D92} = {E3A2A82D-0CC9-4FCD-A2BB-A463564C3F7B}
 		{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1} = {E3A2A82D-0CC9-4FCD-A2BB-A463564C3F7B}
+		{CA687A12-6B2C-461F-A285-5C45C525FA20} = {E3A2A82D-0CC9-4FCD-A2BB-A463564C3F7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C78D796-C2D8-48D9-996C-7FCBDD74CAA4}
