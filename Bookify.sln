@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Api", "src\Bookify.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bookify.Domain.UnitTests", "test\Bookify.Domain.UnitTests\Bookify.Domain.UnitTests.csproj", "{8032A35C-BF4D-40A0-AFA7-2432E1848DC6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application.UnitTests", "test\Bookify.Application.UnitTests\Bookify.Application.UnitTests.csproj", "{86782580-E3A7-4A15-910C-BE4706799604}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookify.Application.IntegrationTests", "test\Bookify.Application.IntegrationTests\Bookify.Application.IntegrationTests.csproj", "{61593578-EE5F-46D6-B586-0C33205D98AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,30 @@ Global
 		{8032A35C-BF4D-40A0-AFA7-2432E1848DC6}.Release|x64.Build.0 = Release|Any CPU
 		{8032A35C-BF4D-40A0-AFA7-2432E1848DC6}.Release|x86.ActiveCfg = Release|Any CPU
 		{8032A35C-BF4D-40A0-AFA7-2432E1848DC6}.Release|x86.Build.0 = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|x64.Build.0 = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Debug|x86.Build.0 = Debug|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|x64.ActiveCfg = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|x64.Build.0 = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|x86.ActiveCfg = Release|Any CPU
+		{86782580-E3A7-4A15-910C-BE4706799604}.Release|x86.Build.0 = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|x64.Build.0 = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Debug|x86.Build.0 = Debug|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|x64.Build.0 = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|x86.ActiveCfg = Release|Any CPU
+		{61593578-EE5F-46D6-B586-0C33205D98AF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -97,6 +125,8 @@ Global
 		{7734E9BD-49E6-49A9-A1FB-1192DD7D1AB1} = {E3A2A82D-0CC9-4FCD-A2BB-A463564C3F7B}
 		{CA687A12-6B2C-461F-A285-5C45C525FA20} = {E3A2A82D-0CC9-4FCD-A2BB-A463564C3F7B}
 		{8032A35C-BF4D-40A0-AFA7-2432E1848DC6} = {03129E84-C69D-4400-A9A2-D7A7F12BF8A7}
+		{86782580-E3A7-4A15-910C-BE4706799604} = {03129E84-C69D-4400-A9A2-D7A7F12BF8A7}
+		{61593578-EE5F-46D6-B586-0C33205D98AF} = {03129E84-C69D-4400-A9A2-D7A7F12BF8A7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7C78D796-C2D8-48D9-996C-7FCBDD74CAA4}
