@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Bookify.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Create_Databse : Migration
+    public partial class CreateDataTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
