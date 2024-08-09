@@ -1,4 +1,5 @@
-﻿using Bookify.Application.Apartments.SearchApartments;
+﻿using Bookify.Application.Apartments.AddApartment;
+using Bookify.Application.Apartments.SearchApartments;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -26,5 +27,15 @@ public class ApartmentsController : ControllerBase
         var result = await _sender.Send(query, cancellationToken);
 
         return Ok(result.Value);
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> AddApartment(
+        AddApartmentCommand command,
+        CancellationToken cancellationToken)
+    {
+        var result = await _sender.Send(command, cancellationToken);
+
+        return CreatedAtAction(nameof(SearchApartments), new { id = result.Value }, result.Value);
     }
 }
