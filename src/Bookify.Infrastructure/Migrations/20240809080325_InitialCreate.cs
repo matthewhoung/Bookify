@@ -41,6 +41,7 @@ namespace Bookify.Infrastructure.Migrations
                 columns: table => new
                 {
                     id = table.Column<Guid>(type: "uuid", nullable: false),
+                    identity_id = table.Column<string>(type: "text", nullable: false),
                     first_name = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
                     last_name = table.Column<string>(type: "character varying(200)", maxLength: 200, nullable: false),
                     email = table.Column<string>(type: "character varying(400)", maxLength: 400, nullable: false)
@@ -155,6 +156,12 @@ namespace Bookify.Infrastructure.Migrations
                 name: "ix_users_email",
                 table: "users",
                 column: "email",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "ix_users_identity_id",
+                table: "users",
+                column: "identity_id",
                 unique: true);
         }
 
