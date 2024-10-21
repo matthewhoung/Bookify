@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Bogus;
+﻿using Bogus;
 using Bookify.Application.Abstractions.Data;
 using Bookify.Domain.Apartments;
 using Dapper;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
 using Npgsql;
 
 namespace Bookify.Api.Extensions;

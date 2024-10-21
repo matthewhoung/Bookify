@@ -12,7 +12,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Bookify.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240809080325_InitialCreate")]
+    [Migration("20241021031758_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
