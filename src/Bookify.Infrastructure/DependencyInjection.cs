@@ -103,6 +103,6 @@ public static class DependencyInjection
     {
         services.AddScoped<AuthorizationService>();
 
-        services.AddScoped<IClaimsTransformation, CustomClaimTransformation>();
+        services.AddTransient<IClaimsTransformation, CustomClaimTransformation>();
     }
 }
