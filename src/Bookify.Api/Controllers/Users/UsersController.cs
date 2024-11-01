@@ -17,6 +17,9 @@ public class UsersController : ControllerBase
         _sender = sender;
     }
 
+    [Authorize(Roles = Roles.Registered)]
+    [HttpGet("me")]
+
     [AllowAnonymous]
     [HttpPost("register")]
     public async Task<IActionResult> Register(
